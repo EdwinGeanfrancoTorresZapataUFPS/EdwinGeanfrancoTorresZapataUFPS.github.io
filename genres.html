@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the different video game genres and their characteristics.">
+  <title>Wiki de Videojuegos - Géneros</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Ajustes extra para la cuadrícula de géneros */
+    .grid-generos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .genero-card {
+      background: #1e1e1e;
+      color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+    .genero-card:hover {
+      transform: scale(1.05);
+    }
+    .genero-card img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Géneros de Videojuegos</h1>
+    <nav>
+      <ul>
+       <li><a href="index.html">Inicio</a></li>
+        <li><a href="iconic-games.html">Juegos Icónicos</a></li>
+        <li><a href="consoles.html">Consolas</a></li>
+        <li><a href="developers.html">Desarrolladores</a></li>
+        <li><a href="history.html">Historia</a></li>
+        <li><a href="genres.html">Géneros</a></li>
+        <li><a href="news.html">Noticias</a></li>
+        <li><a href="reviews.html">Reseñas</a></li>
+        <li><a href="community.html">Comunidad</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Clasificación por Géneros</h2>
+      <div class="grid-generos">
+        <div class="genero-card">
+          <img src="imagenes/accion.jpg" alt="Videojuegos de acción">
+          <h3>Acción</h3>
+          <p>Se enfocan en la rapidez, reflejos y combate. Ejemplo: <em>Doom</em>, <em>Call of Duty</em>.</p>
+        </div>
+        <div class="genero-card">
+          <img src="imagenes/aventura.jpg" alt="Videojuegos de aventura">
+          <h3>Aventura</h3>
+          <p>Exploración, narrativa e interacción con el entorno. Ejemplo: <em>The Last of Us</em>.</p>
+        </div>
+        <div class="genero-card">
+          <img src="imagenes/rpg.jpg" alt="Videojuegos RPG">
+          <h3>RPG</h3>
+          <p>Rol y progresión de personajes con historias profundas. Ejemplo: <em>Final Fantasy</em>.</p>
+        </div>
+        <div class="genero-card">
+          <img src="imagenes/deportes.jpg" alt="Videojuegos de deportes">
+          <h3>Deportes</h3>
+          <p>Simulación de disciplinas deportivas. Ejemplo: <em>FIFA</em>, <em>NBA 2K</em>.</p>
+        </div>
+        <div class="genero-card">
+          <img src="imagenes/estrategia.jpg" alt="Videojuegos de estrategia">
+          <h3>Estrategia</h3>
+          <p>Requieren planificación táctica y toma de decisiones. Ejemplo: <em>Age of Empires</em>.</p>
+        </div>
+        <div class="genero-card">
+          <img src="imagenes/simulacion.jpg" alt="Videojuegos de simulación">
+          <h3>Simulación</h3>
+          <p>Reproducen experiencias de la vida real. Ejemplo: <em>The Sims</em>, <em>Flight Simulator</em>.</p>
+        </div>
+        <div class="genero-card">
+          <img src="imagenes/indie.jpg" alt="Videojuegos indie">
+          <h3>Indie</h3>
+          <p>Proyectos creativos desarrollados por estudios pequeños. Ejemplo: <em>Hollow Knight</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside>
+      <h3>Nota</h3>
+      <p>Muchos videojuegos modernos mezclan varios géneros. Ejemplo: <em>Action-RPG</em> como <em>Dark Souls</em>.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wiki de Videojuegos - Edwin Torres 1152325</p>
+  </footer>
+</body>
+</html>
